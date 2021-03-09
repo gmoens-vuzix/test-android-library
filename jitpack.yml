@@ -1,2 +1,2 @@
 install:
-mvn install:install-file -Dfile=test-android-library.aar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dpackaging=aar -DgeneratePom=true
+mvn install:install-file -Dfile=test-android-library.aar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
