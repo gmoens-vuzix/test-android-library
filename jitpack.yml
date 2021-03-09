@@ -1,5 +1,5 @@
 install:
 # -Dversion=1.0 is apparently just a formality, when the actual pom file is created, the release version will be substituted
 mvn install:install-file -Dfile=test-android-library.aar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
-mvn install:install-file -Dfile=test-android-library-javadoc.jar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=jar -DgeneratePom=false
-mvn install:install-file -Dfile=test-android-library-sources.jar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=jar -DgeneratePom=false
+mvn install:install-file -Dfile=test-android-library-javadoc.jar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=test-android-library-sources.jar -DgroupId=com.github.gmoens-vuzix -DartifactId=test-android-library -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
